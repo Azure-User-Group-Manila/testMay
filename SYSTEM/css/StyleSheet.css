@@ -1,0 +1,40 @@
+﻿
+
+html, body{
+scrollbar-face-color:#5D7B9D;
+scrollbar-base-color:#EBF5FF;
+scrollbar-arrow-color:#1188FF;
+scrollbar-track-color:#F3F3F3;
+scrollbar-shadow-color:#EBF5FF;
+scrollbar-highlight-color:#EBF5FF;
+scrollbar-3dlight-color:#78AAFF;
+scrollbar-darkshadow-Color:#78AAFF;
+}
+
+
+
+body
+{
+   font-size:12px;
+   font-family:Verdana;
+   color:#003366;
+   background-repeat: no-repeat;
+   background-position:center 130px;
+
+
+   
+}
+.TableBorder
+{
+	border-right: #E2DED6 1px solid;
+	border-top: #E2DED6 1px solid; 
+	border-left: #E2DED6 1px solid; 
+	border-bottom: #E2DED6 1px solid
+}
+
+.HeaderFreez
+{
+   position:relative ;
+   top:expression(this.offsetParent.scrollTop);
+   z-index: 10;
+}
